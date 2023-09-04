@@ -39,6 +39,7 @@ java -jar prime-number-service-0.0.1-SNAPSHOT.jar
 
 ### Limitations, Known Issues and Roadmap
 * The maximum limit upto which prime numbers can be generated is 10,000,000. 
+* Add security - check for an apikey in the request
 * Error messages can be improved
 * Caching is handled in the default algorithm. A mechanism to handle caching across algorithms  can be built.
 * Containerize using Docker
